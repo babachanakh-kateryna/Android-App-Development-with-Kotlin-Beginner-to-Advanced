@@ -1,6 +1,4 @@
-package com.example.myapplication
-
-import androidx.collection.arraySetOf
+package com.example.myapplication.section3
 
 fun main(args: Array<String>) {
     var mySetArray = arrayListOf<Any>("Kotlin", 25, "Java", 30, "Python", 35, "Java")
