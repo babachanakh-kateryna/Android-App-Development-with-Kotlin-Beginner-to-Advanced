@@ -15,5 +15,7 @@ fun main(args: Array<String>) {
 //    println("My car is ${myCar.name} and it was made in ${myCar.year}")
 
     var mySecondCars = MySecondCars("Audi", 2016)
+    mySecondCars.name = "Audi"
+    mySecondCars.year = 2016
     println("My car is ${mySecondCars.name} and it was made in ${mySecondCars.year}")
 }
